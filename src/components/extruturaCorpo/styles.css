@@ -1,0 +1,16 @@
+.corpo{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    border:  1px solid #000000;
+    gap: 5px;   
+    padding: 3px 3px 3px 3px; 
+}
+
+.corpo1{
+    border: 1px solid #ccc;
+}
+
+.corpo2{
+    border:  1px solid #ccc;
+}
