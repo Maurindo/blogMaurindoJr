@@ -1,6 +1,9 @@
+import './styles.css'
+
+
 function Header() {
   return (
-    <div>
+    <div className='corpoHeader'>
       <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand">MJR</a>
