@@ -1,16 +1,50 @@
-.corpo{
+.corpo {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 3fr 2fr;
     align-items: center;
-    border:  1px solid #000000;
-    gap: 5px;   
-    padding: 3px 3px 3px 3px; 
+    border: 1px solid #000000;
+    gap: 5px;
+    padding: 3px 3px 3px 3px;
 }
 
-.corpo1{
+.corpo1 {
+    
+}
+
+.corpo2 {
     border: 1px solid #ccc;
 }
 
-.corpo2{
-    border:  1px solid #ccc;
+.corpoTexto {
+    font-family: sans-serif;
+    padding-top: 55px;
+    border-top: 2px solid black;
+}
+
+.corpoData {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    color: #848383;
+    
+
+}
+
+.foto {
+    border-radius: 70%;
+    width: 30%;
+}
+
+.corpoAutor {
+    display: flex;
+    justify-content: start;
+    justify-self: center;
+    align-items: center;
+    gap: 25px;
+    padding-top: 45px;
+}
+
+.corpoTitulo{
+    padding-top: 12px;
+    padding-left: 10px;
+    
 }
