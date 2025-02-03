@@ -4,7 +4,7 @@ function Header2() {
       <ul class="nav justify-content-center">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">
-            HOME
+            <Link to="/">HOME</Link>
           </a>
         </li>
         <li class="nav-item">
@@ -14,12 +14,12 @@ function Header2() {
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">
-            PROJEOS
+            CONTATO
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" aria-disabled="true">
-            CONTATO
+            ADMIN
           </a>
         </li>
       </ul>
