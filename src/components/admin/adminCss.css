@@ -1,0 +1,14 @@
+.corpoAdmin{
+    
+    width: 70vh;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.corpoAdmin button{
+    margin-top: 3%;
+    
+}

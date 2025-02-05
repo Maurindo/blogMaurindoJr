@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Header2() {
   return (
     <div>
@@ -19,7 +20,7 @@ function Header2() {
         </li>
         <li class="nav-item">
           <a class="nav-link" aria-disabled="true">
-            ADMIN
+            <Link to={"/admin"}>ADMIN</Link>
           </a>
         </li>
       </ul>

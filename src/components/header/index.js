@@ -1,4 +1,5 @@
 import './styles.css'
+import { Link } from 'react-router-dom';
 
 
 function Header() {
@@ -6,7 +7,7 @@ function Header() {
     <div className='corpoHeader'>
       <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand">MJR</a>
+          <a class="navbar-brand"><Link to={"/"}>MJR</Link></a>
           <form class="d-flex" role="search">
             <input
               class="form-control me-1"
@@ -14,7 +15,7 @@ function Header() {
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
+            <button class="btn btn-primary" type="submit">
               Search
             </button>
           </form>

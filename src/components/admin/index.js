@@ -1,8 +1,10 @@
+import './adminCss.css'
+
 //função de página admin com export.
 
-export function adminLogin() {
+function AdminLogin() {
   return (
-    <div>
+    <div className='corpoAdmin'>
       <div class="form-floating mb-3">
         <input
           type="email"
@@ -20,7 +22,12 @@ export function adminLogin() {
           placeholder="Password"
         />
         <label for="floatingPassword">Password</label>
+        <button class="btn btn-light" type="submit">
+              Search
+            </button>
       </div>
     </div>
   );
 }
+
+export default AdminLogin;
